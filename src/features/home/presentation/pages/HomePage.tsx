@@ -1,21 +1,35 @@
 import HeroSection from "../components/HeroSection";
 import MessageSection from "../components/MessageSection";
 import PhotoGallerySection from "../components/PhotoGallerySection";
+import LatestPhotoSection from "../components/LatestPhotoSection";
 import LoveReasonsSection from "../components/LoveReasonsSection";
 import TimelineSection from "../components/TimelineSection";
 import SecretMessageSection from "../components/SecretMessageSection";
 import FooterSection from "../components/FooterSection";    
+import GeneralSection from "../components/GeneralSection";    
+import MusicPlayer from "../components/MusicPlayer";
+
 
 const HomePage = () => {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-pink-100 via-rose-50 to-white">
+    <main className="bg-[#f8f5ee]">
+        <MusicPlayer />
+
       <HeroSection />
       <MessageSection />
-      <PhotoGallerySection />
       <LoveReasonsSection />
+            <PhotoGallerySection />
+      <LatestPhotoSection />
       <TimelineSection />
+            <GeneralSection />
       <SecretMessageSection />
       <FooterSection />
+      <div
+  style={{
+    height: "200px",
+  }}
+>
+</div>
     </main>
   );
 };
