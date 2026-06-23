@@ -23,4 +23,4 @@ Error generating stack: `+e.message+`
     transition-all
     duration-300
     active:scale-95
-  `,children:(0,f.jsx)(`span`,{className:`text-sm font-medium`,children:t?`njettiyo...`:`First ith thod`})})]})},ne=()=>(0,f.jsxs)(`main`,{className:`bg-[#f8f5ee]`,children:[(0,f.jsx)(te,{}),(0,f.jsx)(p,{}),(0,f.jsx)(m,{}),(0,f.jsx)(y,{}),(0,f.jsx)(g,{}),(0,f.jsx)(v,{}),(0,f.jsx)(b,{}),(0,f.jsx)(S,{}),(0,f.jsx)(x,{}),(0,f.jsx)(ee,{}),(0,f.jsx)(`div`,{style:{height:`200px`}})]});function re(){return(0,f.jsx)(ne,{})}(0,u.createRoot)(document.getElementById(`root`)).render((0,f.jsx)(l.StrictMode,{children:(0,f.jsx)(re,{})}));
+  `,children:(0,f.jsx)(`span`,{className:`text-sm font-medium`,children:t?`njettiyo...`:`First ith thod`})})]})},ne=()=>(0,f.jsxs)(`main`,{className:`bg-[#f8f5ee]`,children:[(0,f.jsx)(te,{}),(0,f.jsx)(p,{}),(0,f.jsx)(m,{}),(0,f.jsx)(y,{}),(0,f.jsx)(g,{}),(0,f.jsx)(v,{}),(0,f.jsx)(b,{}),(0,f.jsx)(S,{}),(0,f.jsx)(x,{}),(0,f.jsx)(ee,{})]});function re(){return(0,f.jsx)(ne,{})}(0,u.createRoot)(document.getElementById(`root`)).render((0,f.jsx)(l.StrictMode,{children:(0,f.jsx)(re,{})}));
